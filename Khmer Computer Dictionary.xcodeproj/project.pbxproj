@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A91B49A1D1968FB00003116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91B4991D1968FB00003116 /* AppDelegate.swift */; };
+		3A91B49C1D1968FB00003116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91B49B1D1968FB00003116 /* ViewController.swift */; };
+		3A91B49F1D1968FB00003116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A91B49D1D1968FB00003116 /* Main.storyboard */; };
+		3A91B4A21D1968FB00003116 /* Khmer_Computer_Dictionary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A91B4A01D1968FB00003116 /* Khmer_Computer_Dictionary.xcdatamodeld */; };
+		3A91B4A41D1968FB00003116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A91B4A31D1968FB00003116 /* Assets.xcassets */; };
+		3A91B4A71D1968FB00003116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A91B4A51D1968FB00003116 /* LaunchScreen.storyboard */; };
+		3A91B4B21D1968FB00003116 /* Khmer_Computer_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91B4B11D1968FB00003116 /* Khmer_Computer_DictionaryTests.swift */; };
+		3A91B4BD1D1968FB00003116 /* Khmer_Computer_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91B4BC1D1968FB00003116 /* Khmer_Computer_DictionaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A91B4AE1D1968FB00003116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A91B48E1D1968FB00003116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A91B4951D1968FB00003116;
+			remoteInfo = "Khmer Computer Dictionary";
+		};
+		3A91B4B91D1968FB00003116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A91B48E1D1968FB00003116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A91B4951D1968FB00003116;
+			remoteInfo = "Khmer Computer Dictionary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A91B4961D1968FB00003116 /* Khmer Computer Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khmer Computer Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A91B4991D1968FB00003116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A91B49B1D1968FB00003116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A91B49E1D1968FB00003116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A91B4A11D1968FB00003116 /* Khmer_Computer_Dictionary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Khmer_Computer_Dictionary.xcdatamodel; sourceTree = "<group>"; };
+		3A91B4A31D1968FB00003116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A91B4A61D1968FB00003116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A91B4A81D1968FB00003116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A91B4AD1D1968FB00003116 /* Khmer Computer DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khmer Computer DictionaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A91B4B11D1968FB00003116 /* Khmer_Computer_DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khmer_Computer_DictionaryTests.swift; sourceTree = "<group>"; };
+		3A91B4B31D1968FB00003116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A91B4B81D1968FB00003116 /* Khmer Computer DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khmer Computer DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A91B4BC1D1968FB00003116 /* Khmer_Computer_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khmer_Computer_DictionaryUITests.swift; sourceTree = "<group>"; };
+		3A91B4BE1D1968FB00003116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A91B4931D1968FB00003116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A91B4AA1D1968FB00003116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A91B4B51D1968FB00003116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A91B48D1D1968FB00003116 = {
+			isa = PBXGroup;
+			children = (
+				3A91B4981D1968FB00003116 /* Khmer Computer Dictionary */,
+				3A91B4B01D1968FB00003116 /* Khmer Computer DictionaryTests */,
+				3A91B4BB1D1968FB00003116 /* Khmer Computer DictionaryUITests */,
+				3A91B4971D1968FB00003116 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A91B4971D1968FB00003116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A91B4961D1968FB00003116 /* Khmer Computer Dictionary.app */,
+				3A91B4AD1D1968FB00003116 /* Khmer Computer DictionaryTests.xctest */,
+				3A91B4B81D1968FB00003116 /* Khmer Computer DictionaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A91B4981D1968FB00003116 /* Khmer Computer Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				3A91B4991D1968FB00003116 /* AppDelegate.swift */,
+				3A91B49B1D1968FB00003116 /* ViewController.swift */,
+				3A91B49D1D1968FB00003116 /* Main.storyboard */,
+				3A91B4A31D1968FB00003116 /* Assets.xcassets */,
+				3A91B4A51D1968FB00003116 /* LaunchScreen.storyboard */,
+				3A91B4A81D1968FB00003116 /* Info.plist */,
+				3A91B4A01D1968FB00003116 /* Khmer_Computer_Dictionary.xcdatamodeld */,
+			);
+			path = "Khmer Computer Dictionary";
+			sourceTree = "<group>";
+		};
+		3A91B4B01D1968FB00003116 /* Khmer Computer DictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A91B4B11D1968FB00003116 /* Khmer_Computer_DictionaryTests.swift */,
+				3A91B4B31D1968FB00003116 /* Info.plist */,
+			);
+			path = "Khmer Computer DictionaryTests";
+			sourceTree = "<group>";
+		};
+		3A91B4BB1D1968FB00003116 /* Khmer Computer DictionaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A91B4BC1D1968FB00003116 /* Khmer_Computer_DictionaryUITests.swift */,
+				3A91B4BE1D1968FB00003116 /* Info.plist */,
+			);
+			path = "Khmer Computer DictionaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A91B4951D1968FB00003116 /* Khmer Computer Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A91B4C11D1968FB00003116 /* Build configuration list for PBXNativeTarget "Khmer Computer Dictionary" */;
+			buildPhases = (
+				3A91B4921D1968FB00003116 /* Sources */,
+				3A91B4931D1968FB00003116 /* Frameworks */,
+				3A91B4941D1968FB00003116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Khmer Computer Dictionary";
+			productName = "Khmer Computer Dictionary";
+			productReference = 3A91B4961D1968FB00003116 /* Khmer Computer Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A91B4AC1D1968FB00003116 /* Khmer Computer DictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A91B4C41D1968FB00003116 /* Build configuration list for PBXNativeTarget "Khmer Computer DictionaryTests" */;
+			buildPhases = (
+				3A91B4A91D1968FB00003116 /* Sources */,
+				3A91B4AA1D1968FB00003116 /* Frameworks */,
+				3A91B4AB1D1968FB00003116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A91B4AF1D1968FB00003116 /* PBXTargetDependency */,
+			);
+			name = "Khmer Computer DictionaryTests";
+			productName = "Khmer Computer DictionaryTests";
+			productReference = 3A91B4AD1D1968FB00003116 /* Khmer Computer DictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A91B4B71D1968FB00003116 /* Khmer Computer DictionaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A91B4C71D1968FB00003116 /* Build configuration list for PBXNativeTarget "Khmer Computer DictionaryUITests" */;
+			buildPhases = (
+				3A91B4B41D1968FB00003116 /* Sources */,
+				3A91B4B51D1968FB00003116 /* Frameworks */,
+				3A91B4B61D1968FB00003116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A91B4BA1D1968FB00003116 /* PBXTargetDependency */,
+			);
+			name = "Khmer Computer DictionaryUITests";
+			productName = "Khmer Computer DictionaryUITests";
+			productReference = 3A91B4B81D1968FB00003116 /* Khmer Computer DictionaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A91B48E1D1968FB00003116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Appler;
+				TargetAttributes = {
+					3A91B4951D1968FB00003116 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3A91B4AC1D1968FB00003116 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3A91B4951D1968FB00003116;
+					};
+					3A91B4B71D1968FB00003116 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3A91B4951D1968FB00003116;
+					};
+				};
+			};
+			buildConfigurationList = 3A91B4911D1968FB00003116 /* Build configuration list for PBXProject "Khmer Computer Dictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A91B48D1D1968FB00003116;
+			productRefGroup = 3A91B4971D1968FB00003116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A91B4951D1968FB00003116 /* Khmer Computer Dictionary */,
+				3A91B4AC1D1968FB00003116 /* Khmer Computer DictionaryTests */,
+				3A91B4B71D1968FB00003116 /* Khmer Computer DictionaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A91B4941D1968FB00003116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A91B4A71D1968FB00003116 /* LaunchScreen.storyboard in Resources */,
+				3A91B4A41D1968FB00003116 /* Assets.xcassets in Resources */,
+				3A91B49F1D1968FB00003116 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A91B4AB1D1968FB00003116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A91B4B61D1968FB00003116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A91B4921D1968FB00003116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A91B49C1D1968FB00003116 /* ViewController.swift in Sources */,
+				3A91B4A21D1968FB00003116 /* Khmer_Computer_Dictionary.xcdatamodeld in Sources */,
+				3A91B49A1D1968FB00003116 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A91B4A91D1968FB00003116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A91B4B21D1968FB00003116 /* Khmer_Computer_DictionaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A91B4B41D1968FB00003116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A91B4BD1D1968FB00003116 /* Khmer_Computer_DictionaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A91B4AF1D1968FB00003116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A91B4951D1968FB00003116 /* Khmer Computer Dictionary */;
+			targetProxy = 3A91B4AE1D1968FB00003116 /* PBXContainerItemProxy */;
+		};
+		3A91B4BA1D1968FB00003116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A91B4951D1968FB00003116 /* Khmer Computer Dictionary */;
+			targetProxy = 3A91B4B91D1968FB00003116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A91B49D1D1968FB00003116 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A91B49E1D1968FB00003116 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A91B4A51D1968FB00003116 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A91B4A61D1968FB00003116 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A91B4BF1D1968FB00003116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A91B4C01D1968FB00003116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A91B4C21D1968FB00003116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Khmer Computer Dictionary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Appler.Khmer-Computer-Dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A91B4C31D1968FB00003116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Khmer Computer Dictionary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Appler.Khmer-Computer-Dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A91B4C51D1968FB00003116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Khmer Computer DictionaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Appler.Khmer-Computer-DictionaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khmer Computer Dictionary.app/Khmer Computer Dictionary";
+			};
+			name = Debug;
+		};
+		3A91B4C61D1968FB00003116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Khmer Computer DictionaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Appler.Khmer-Computer-DictionaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khmer Computer Dictionary.app/Khmer Computer Dictionary";
+			};
+			name = Release;
+		};
+		3A91B4C81D1968FB00003116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Khmer Computer DictionaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Appler.Khmer-Computer-DictionaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Khmer Computer Dictionary";
+			};
+			name = Debug;
+		};
+		3A91B4C91D1968FB00003116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Khmer Computer DictionaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Appler.Khmer-Computer-DictionaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Khmer Computer Dictionary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A91B4911D1968FB00003116 /* Build configuration list for PBXProject "Khmer Computer Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A91B4BF1D1968FB00003116 /* Debug */,
+				3A91B4C01D1968FB00003116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A91B4C11D1968FB00003116 /* Build configuration list for PBXNativeTarget "Khmer Computer Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A91B4C21D1968FB00003116 /* Debug */,
+				3A91B4C31D1968FB00003116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A91B4C41D1968FB00003116 /* Build configuration list for PBXNativeTarget "Khmer Computer DictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A91B4C51D1968FB00003116 /* Debug */,
+				3A91B4C61D1968FB00003116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A91B4C71D1968FB00003116 /* Build configuration list for PBXNativeTarget "Khmer Computer DictionaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A91B4C81D1968FB00003116 /* Debug */,
+				3A91B4C91D1968FB00003116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A91B4A01D1968FB00003116 /* Khmer_Computer_Dictionary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A91B4A11D1968FB00003116 /* Khmer_Computer_Dictionary.xcdatamodel */,
+			);
+			currentVersion = 3A91B4A11D1968FB00003116 /* Khmer_Computer_Dictionary.xcdatamodel */;
+			path = Khmer_Computer_Dictionary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A91B48E1D1968FB00003116 /* Project object */;
+}
